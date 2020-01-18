@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('./../assets/shop-cart.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 520px;
+}
+
+.markItem{
+	text-decoration: line-through;
+}
+
+#checkButton{
+	background-color: #56C56F;
+	padding: 8px;
+	border-radius: 5px;
+	margin-left: 10px;
+	color: white;
+}
+
+#deleteButton{
+	background-color: #D9534F;
+	padding: 8px;
+	border-radius: 5px;
+	color: white;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	border: 1.5px solid #D2D2D2;
+	padding: 10px;
+	color: grey;
+	font-style: italic;
+	font-size: 23px;
+	margin-right: 45px;
+}
